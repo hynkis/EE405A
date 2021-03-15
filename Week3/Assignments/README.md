@@ -6,16 +6,16 @@
   2. message type is std_msgs/Float32 (You can set the data value arbitrary.)
   3. rate is 30Hz
 
-## 3. Write a ros subscriber node (‘state_processor.py’)
+## 3. Write a ros subscriber node (‘data_processor.py’)
 * Subscribe to the fake sensor data
-  1. Using the received sensor data, publish a processed data whose
-  2. topic name is “/processed_state”
-  3. message type is std_msgs/Float32 (You can set the processed data arbitrary.)
+* Using the received sensor data, publish a processed data whose
+  1. topic name is “/processed_state”
+  2. message type is std_msgs/Float32 (You can set the processed data arbitrary.)
 
 ## 4. Run both publisher and subscriber using ‘roslaunch’
-* Create a .launch script to run the publisher(‘fake_sensor.py’) and subscriber node(‘state_processor.py’).
+* Create a .launch script to run the publisher(‘fake_sensor.py’) and subscriber node(‘data_processor.py’).
 
-## 5. Send followings to hynkis@kaist.ac.kr until 21.03.31 (2 weeks later)
+## 5. Send followings to hynkis@kaist.ac.kr until 21.03.31 (for 2 weeks)
 * Your  ROS package
 * Your Report
   1. Write what you have learned this week.
