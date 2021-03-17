@@ -16,12 +16,14 @@
 * Create a .launch script to run the publisher(‘fake_sensor.py’) and subscriber node(‘data_processor.py’).
 
 ## 5. Send followings to hynkis@kaist.ac.kr until 21.03.31 (for 2 weeks).
-* Your  ROS package
+* Your ROS package
 * Your Report
   1. Write what you have learned this week.
   2. You can use both KOR/ENG in your report.
-  3. Please submit in PDF format with the following file name, and other forms are free.
-      
-      EE405A_[lecture_date(YYMMDD)][Student_ID][Full name]
-      
-      (e.g., EE405A_210317_20215169_Hyunki_Seong.pdf)
+
+* Please zip your ROS package and Report with the following filename
+
+  EE405A_[lecture_date(YYMMDD)][Student ID][Full name]
+  
+  (e.g., EE405A_210317_20215169_Hyunki_Seong.zip)
+
