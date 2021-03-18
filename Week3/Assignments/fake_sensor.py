@@ -12,7 +12,7 @@ class FakeSensor():
         # TODO: Define publisher
 
         # Define ros node rate
-        self.rate = rospy.Rate(30) # 5hz
+        self.rate = rospy.Rate(30) # 30hz
 
 def main():
     # Create a class instance
@@ -20,9 +20,8 @@ def main():
 
     # Main loop
     while not rospy.is_shutdown():
-        # TODO: Compute a fake sensor value in Float32
-
-        # TODO: Publish the fake sensor message as a Float32 message
+        # TODO: Publish a fake sensor message as a Float32 message.
+        #       (You can set the processed data arbitrary.)
 
         # Rate control
         fake_sensor.rate.sleep()

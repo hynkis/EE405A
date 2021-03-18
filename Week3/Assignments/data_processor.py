@@ -18,9 +18,10 @@ class StateProcessor():
         # TODO: Parse the data in the message
         msg_data = msg.data
 
-        # TODO: Compute an arbitrary output using the subscribed data in Float32
+        # TODO: Set an arbitrary output using the subscribed data in Float32
+        #       and Publish the output as a Float32 message.
+        #       (You can set the processed data arbitrary.)
 
-        # TODO: Publish the output as a Float32 message
 
 def main():
     # Create a class instance
