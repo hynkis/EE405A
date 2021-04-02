@@ -116,7 +116,8 @@ class WaypointFollower():
     def steer_control(self, error_y, error_yaw):
         """
         Steering control (PID, similar with Stanley Method)
-        TODO: Design your steering controller
+        TODO-1 : Design your steering controller
+        TODO-2 : Implement PI controller for steering angle control
         """
         kp_y   = 0.0 # P gain w.r.t. cross track error
         kp_yaw = 0.0 # P gain w.r.t. yaw error
@@ -131,7 +132,7 @@ class WaypointFollower():
     def speed_control(self, error_v):
         """
         Speed control (PID)
-        TODO: Design your speed controller
+        TODO-3: Design your speed controller
         """
         kp_v = 0.0
                 
