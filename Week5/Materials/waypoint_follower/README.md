@@ -23,5 +23,9 @@ Open a terminal and run the following node.
 rosrun waypoint_follower controller.py
 ```
 
-- Find 'TODO' in the waypoint_follower/controller.py for your assignment.
+## For the assignment
+
+- Find 'TODO' in the waypoint_follower/script/controller.py for your assignment.
+- Design your proper steering/speed controller by tuning controller gains.
+- Implement a PI controller for steering angle control.
 - Change the code freely to fit your needs.
