@@ -1,29 +1,38 @@
 # Assignment for Week3
 ## 1. Create a ROS package.
-## 2. Write a ros publisher node (‘fake_sensor.py’).
-* Publish a fake sensor data whose
-  1. topic name is ‘/vehicle_state’
-  2. message type is std_msgs/Float32 (You can set the data value arbitrary.)
-  3. rate is 30Hz
+## 2. Write a ros node (refer ‘data_pub.py’).
+* Publish two data as follows:
+1. Data 1
+    - topic name is "/data1"
+    - message type is std_msgs/Float32 (You can set the data value arbitrary.)
+    - rate is 100 Hz
+2. Data 2
+    - topic name is "/data2"
+    - message type is std_msgs/Float32MultiArray (You can set the data values arbitrary.)
+    - rate is 50 Hz
 
-## 3. Write a ros subscriber node (‘data_processor.py’).
-* Subscribe to the fake sensor data.
-* Using the received sensor data, publish a processed data whose
-  1. topic name is “/processed_state”
-  2. message type is std_msgs/Float32 (You can set the processed data arbitrary.)
+## 3. Write a ros node (refer 'data_sub_and_pub.py’).
+* Subscribe two data as follows:
+1. Data 1
+    - topic name is "/data1"
+    - message type is std_msgs/Float32
+2. Data 2
+    - topic name is "/data2"
+    - message type is std_msgs/Float32MultiArray
 
-## 4. Run both publisher and subscriber using ‘roslaunch’.
-* Create a .launch script to run the publisher(‘fake_sensor.py’) and subscriber node(‘data_processor.py’).
+* Publish two data as follows:
+1. Data 3
+    - publish the sum of the message data array whose topic name is "/data2"
+    - publish data in 100 HZ
+    - topic name is "/data3"
+    - message type is std_msgs/Float32
 
-## 5. Send followings to hynkis@kaist.ac.kr until 21.03.31 (for 2 weeks).
-* Your ROS package
-* Your Report
-  1. Write what you have learned this week.
-  2. You can use both KOR/ENG in your report.
+2. Data 4
+    - publish the sum of the message data array whose topic name is "/data2"
+    - publish data whenever it gets the message topic "/data2"
+    - topic name is "/data4"
+    - message type is std_msgs/Float32
 
-* Please zip your ROS package and Report with the following filename
 
-  EE405A_[lecture_date(YYMMDD)][Student ID][Full name]
-  
-  (e.g., EE405A_210317_20215169_Hyunki_Seong.zip)
-
+## 4. Run both nodes using ‘roslaunch’.
+* Create a .launch script to run the above two nodes at the same time.

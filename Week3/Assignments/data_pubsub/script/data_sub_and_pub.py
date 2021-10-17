@@ -15,7 +15,6 @@ TODO Subscribe two data and publish two data as follows
 : Publish the message in 100 HZ
 - message topic name : "/data3"
 - message type : Float32
-- message rate : 100 Hz
 
 @ Data 4 to publish
 : Publish the sum of the message data array whose topic name is "/data2"
