@@ -22,7 +22,7 @@ KAIST EE405A Electronics Design Lab.
     - Geometry for lateral vehicle control
     - Lateral controller based on Pure Pursuit & Stanley Method
 
-# Week 5 & 6 - Hardware & Software Configuration
+# Week 5 - Hardware & Software Configuration
 - [Hardware configuration](https://www.dropbox.com/s/sju9q2fn8crvdl6/%5BEE405A%202022%5D%20Hardware_Configuration_for_RC_Car_Platform.pdf?dl=0)
     - Hardware architecture
     - Electronics
