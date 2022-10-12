@@ -40,3 +40,17 @@ KAIST EE405A Electronics Design Lab.
         - Arduino ROS
 
 - [Setting up Jetson NX (eMMC version)](https://www.dropbox.com/s/fsir0et88jfrp4h/%5BEE405A%5D%20Jetson_NX_new_install_tutorial.pdf?dl=0)
+
+# Week 6 - Localization & Mapping
+[Lecture Note Week6](https://www.dropbox.com/s/yi5amtnppyxztj5/%5BEE405A%5D%20Mapping%26Localization.pdf?dl=0)
+- SLAM basics
+    - 2-D, 3-D SLAMs supported by ROS.
+    - Occupancy grid map messages to save the 2-D map
+- Scan matching algorithm
+    - How does the scan matching algorithm work?
+- Implement 2D Localization based on Particle filter
+- Implement 2D Localization based on PCL library
+    - Example code
+    - Real-world test
+- Parametric study
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+  <arg name="direct_wheel_control"    default="false"/>
+  <arg name="steering_ratio"          default="14.75"/>
+  <arg name="wheel_base"              default="2.7"/>
+  <arg name="distance_upper_limit"    default="7.0" />
+  <arg name="distance_lower_limit"    default="2.05"/>
+  <arg name="normal_dist"             default="2.0"/>
+
+  <node pkg="hyundai_laser_collision_checker" type="hyundai_laser_collision_checker_node" name="laser_collision_checker_node" output="screen" respawn="true">
+    <param name="direct_wheel_control"    value="$(arg direct_wheel_control)"/>
+    <param name="steering_ratio"          value="$(arg steering_ratio)"/>
+    <param name="wheel_base"              value="$(arg wheel_base)"/>
+    <param name="distance_upper_limit"    value="$(arg distance_upper_limit)"/>
+    <param name="distance_lower_limit"    value="$(arg distance_lower_limit)"/>
+    <param name="normal_dist"             value="$(arg normal_dist)"/>
+  </node>
+
+</launch>
