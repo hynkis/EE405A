@@ -55,7 +55,7 @@ KAIST EE405A Electronics Design Lab.
 - Parametric study
 
 # Week 10 - Gazebo
-[Lecture Note Week10](https://www.dropbox.com/s/yi5amtnppyxztj5/%5BEE405A%5D%20Mapping%26Localization.pdf?dl=0)
+[Lecture Note Week10](https://www.dropbox.com/s/7sghehdu4p768gt/%5BEE405%5D%20Gazebo.pdf?dl=0)
 - Gazebo
 - Models
     - Links
