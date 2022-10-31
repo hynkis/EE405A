@@ -54,3 +54,13 @@ KAIST EE405A Electronics Design Lab.
     - Real-world test
 - Parametric study
 
+# Week 10 - Gazebo
+[Lecture Note Week10](https://www.dropbox.com/s/yi5amtnppyxztj5/%5BEE405A%5D%20Mapping%26Localization.pdf?dl=0)
+- Gazebo
+- Models
+    - Links
+    - Joints
+    - Sensor plugins
+- World
+    - models
+- Visualization
